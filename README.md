@@ -5,8 +5,9 @@ Give your elements a shot of data
 
 **_NOTE: This plugin is not meant to replace templating_**
 
-The idea is to help you inject data into your DOM manually, by defining through 
-a html `data-ds` attribute the path of the value you want to set to your element. 
+The idea is to help you inject data into your DOM (*instead of doing it manually*), by binding data paths to your html elements.
+
+This is done by defining on each element a `data-ds` attribute that will point to the value on your model. 
 
 The path is defined with standard dot and bracket notation.
 Example:
